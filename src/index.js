@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import App from "./App";
 
 ReactDOM.render(
+    //Strict Mode causes constructor and render called twice only in dev mode, not in production.
     <React.StrictMode>
         <App />
     </React.StrictMode>,
